@@ -1,0 +1,17 @@
+[package]
+  authors = [ "Brandon Thomas <bt@brand.io>", "Brandon Thomas <echelon@gmail.com>" ]
+  description = "A demo for the 2017 Atlanta Beltline Lantern Parade"
+  license = "None at the moment"
+  name = "beltline-lantern-parade"
+  readme = "README.md"
+  repository = "https://github.com/echelon/beltline-lantern-parade"
+  version = "0.1.0"
+
+[[bin]]
+  name = "parade"
+
+[dependencies]
+  argparse = "0.2"
+  beam = "0.1"
+  lase = "0.0.1"
+
