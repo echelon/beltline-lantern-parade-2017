@@ -4,6 +4,7 @@ version = "0.1.0"
 dependencies = [
  "argparse 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "beam 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "ilda 0.0.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "lase 0.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -41,6 +42,14 @@ dependencies = [
 [[package]]
 name = "ilda"
 version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "log 0.3.8 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "ilda"
+version = "0.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "log 0.3.8 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -111,6 +120,7 @@ dependencies = [
 "checksum cfg-if 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "d4c819a1287eb618df47cc647173c5c4c66ba19d888a6e50d605672aed3140de"
 "checksum etherdream 0.0.7 (registry+https://github.com/rust-lang/crates.io-index)" = "a5cf54ce8512fdcca37fd684e53cd5926ffeca634580f3acbb1529f8c20ad77e"
 "checksum ilda 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)" = "3a1e7b293fd4994d9867ee7cda7345dd40af1aee181e9881c26ca975f2aabced"
+"checksum ilda 0.0.6 (registry+https://github.com/rust-lang/crates.io-index)" = "37440bfd2544c35048287dc566267a4397e3dbe88b9f26364a111a3f45d06ed3"
 "checksum kernel32-sys 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "7507624b29483431c0ba2d82aece8ca6cdba9382bff4ddd0f7490560c056098d"
 "checksum lase 0.0.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d9c043e816981bea6997622f2551a466935709e95b9d64f85052d54e0888e764"
 "checksum libc 0.2.30 (registry+https://github.com/rust-lang/crates.io-index)" = "2370ca07ec338939e356443dac2296f581453c35fe1e3a3ed06023c49435f915"
